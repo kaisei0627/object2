@@ -3,7 +3,7 @@ package meiro.view;
 import java.util.ArrayList;
 import meiro.bean.BlockBean;
 import meiro.process.Maze;
-
+//迷路を表示するクラス
 public class ConsoleManger {
     public static void show(ArrayList<BlockBean> blockAry){
         for(int i = 0; i < blockAry.size(); i++){
